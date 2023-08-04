@@ -38,6 +38,7 @@ class PostsTest extends TestCase
                     '*' => [
                         'id',
                         'title',
+                        'slug',
                         'excerpt',
                         'content',
                         'user' => [
@@ -66,6 +67,7 @@ class PostsTest extends TestCase
             ->assertJsonStructure([
                 'id',
                 'title',
+                'slug',
                 'content',
                 'created_at',
             ]);
@@ -82,6 +84,7 @@ class PostsTest extends TestCase
             ->assertJsonStructure([
                 'id',
                 'title',
+                'slug',
                 'content',
                 'created_at',
             ]);
@@ -103,6 +106,7 @@ class PostsTest extends TestCase
             ->assertJsonStructure([
                 'id',
                 'title',
+                'slug',
                 'content',
                 'created_at',
             ]);

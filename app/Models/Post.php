@@ -2,15 +2,18 @@
 
 namespace App\Models;
 
+use App\Traits\HasSlug;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model
 {
-    use HasFactory;
+    use HasFactory,
+        HasSlug;
 
     protected $fillable = [
         'title',
+        'slug',
         'excerpt',
         'content',
         'user_id',
