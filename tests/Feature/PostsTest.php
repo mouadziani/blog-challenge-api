@@ -14,7 +14,7 @@ class PostsTest extends TestCase
     use RefreshDatabase;
     use WithFaker;
 
-    private $user;
+    private User $user;
 
     protected function setUp(): void
     {
