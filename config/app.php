@@ -188,8 +188,6 @@ return [
          * Package Service Providers...
          */
 
-        Bugsnag\BugsnagLaravel\BugsnagServiceProvider::class,
-
         /*
          * Application Service Providers...
          */
@@ -197,7 +195,6 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
         App\Providers\EventServiceProvider::class,
-        App\Providers\NovaServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
     ],
