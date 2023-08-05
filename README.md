@@ -9,7 +9,7 @@
 * [x] An authenticated user can see details of a specific post.
 
 ## Unit/Feature testing
-![](.doc/tests.png)
+![](.docs/tests.png)
 
 ## Used technologies
 
