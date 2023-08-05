@@ -8,6 +8,7 @@
 * [x] An authenticated user can remove his posts
 * [x] An authenticated user can see details of a specific post.
 
+## Unit/Feature testing
 ![](.doc/tests.png)
 
 ## Used technologies
