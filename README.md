@@ -34,7 +34,8 @@
 ## Testing
 In this file [doc/postman_collection.json](.doc/postman_collection.json) you will find the postman collection which you can import into your local postman app and test the api.
 
-
+## Frontend side
+https://github.com/mouadziani/blog-challenge-frontend
 
 
 
