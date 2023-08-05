@@ -87,6 +87,10 @@ class PostsTest extends TestCase
                 'slug',
                 'content',
                 'created_at',
+                'user' => [
+                    'id',
+                    'name',
+                ],
             ]);
     }
 

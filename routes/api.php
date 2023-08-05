@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Auth;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -32,5 +33,6 @@ Route::controller(Auth\LoginController::class)->group(function () {
 */
 
 Route::middleware('auth:sanctum')->group(function () {
+    Route::get('/account', ProfileController::class);
     Route::apiResource('/posts', PostController::class);
 });
